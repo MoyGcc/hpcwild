@@ -1,0 +1,8 @@
+*.pyc
+*.pth
+*.pt
+*.ckpt
+*.tar
+test_output
+
+smpl_rendering/smpl_model

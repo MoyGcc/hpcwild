@@ -1,0 +1,1 @@
+python mesh_recon.py --config test.conf
