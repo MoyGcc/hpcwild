@@ -43,7 +43,7 @@ def fit(dataset_path, seq_name, model_dir, actor):
 
     seq_path = os.path.join(datasetDir, 'sequenceFiles/test', seq_name+'.pkl')
 
-    thetas_file = pkl.load(open(os.path.join(datasetDir, 'res/test', seq_name+'.pkl'), 'rb'), encoding='latin1')['thetas'][actor]
+    thetas_file = pkl.load(open(os.path.join(root, 'test_data/%s.pkl' % seq_name), 'rb'), encoding='latin1')['thetas'][actor]
     op_outputs = np.load('./test_data/openpose_jnts.npy')
     start_frame = 0
     

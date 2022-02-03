@@ -59,7 +59,10 @@ Download [3DPW dataset](https://virtualhumans.mpi-inf.mpg.de/3DPW/)
 3. run `bash registration.sh` to register a SMPL+D model to the rigid human body.
 4. run `bash tracking.sh` to capture the human performance temporally.
 
-Please refer to [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) and [MODNet](https://github.com/ZHKKKe/MODNet) to extract 2D joints and masks if you want to test on more sequences.
+### Test on your own video
+1. run [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) to obtain the 2D keypoints.
+2. run [LGD](https://github.com/InpatientJam/Learned-Gradient-Descent) to acquire the initial 3D poses.
+3. run [MODNet](https://github.com/ZHKKKe/MODNet) to extract sihouettes.
 
 # Acknowledgement
 We use the code in [PIFuHD](https://github.com/facebookresearch/pifuhd) for the rigid body construction and adapt [IPNet](https://github.com/bharat-b7/IPNet) for human model registration. We use off-the-shelf methods [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) and [MODNet](https://github.com/ZHKKKe/MODNet) for the extraction of 2D keypoints and sihouettes. We sincerely thank these authors for their awesome work.
