@@ -1,5 +1,5 @@
 # Human Performance Capture from Monocular Video in the Wild
-## [Paper](https://arxiv.org/pdf/2111.14672.pdf) | [Video](https://www.youtube.com/watch?v=5M7Ytnxmhd4) | [Project Page](https://ait.ethz.ch/projects/2021/human-performance-capture)
+## [Paper](https://arxiv.org/pdf/2111.14672.pdf) | [Video](https://www.youtube.com/watch?v=5M7Ytnxmhd4) | [Project Page](https://ait.ethz.ch/human-performance-capture)
 
 <img src="assets/teaser.gif" width="1000" height="350"/> 
 
